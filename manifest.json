@@ -1,0 +1,27 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "ビンゴゲーム",
+        "description": "ビンゴゲーム",
+        "uuid": "02b6fbf6-0806-482f-80d0-462c0b9f482c",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 23 ]
+    },
+    "modules": [
+
+        {
+            "description": "Script API",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "5c21cda9-627d-48d0-b23f-7200aa02da23",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        }
+    ]
+}
